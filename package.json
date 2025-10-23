@@ -1,0 +1,26 @@
+{
+  "name": "bootcampqa-atlanticoavanti",
+  "version": "1.0.0",
+  "description": "Este repositório foi criado para apresentar as entregas e projetos desenvolvidos durante o bootcamp em Quality Assurance, evidenciando o domínio das etapas de planejamento, execução e automação de testes de software.",
+  "main": "cypress.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isadoracaarvalho/bootcampQA-AtlanticoAvanti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isadoracaarvalho/bootcampQA-AtlanticoAvanti/issues"
+  },
+  "homepage": "https://github.com/isadoracaarvalho/bootcampQA-AtlanticoAvanti#readme",
+  "dependencies": {
+    "cypress": "^15.5.0"
+  }
+}
