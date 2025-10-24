@@ -1,7 +1,7 @@
 describe('Validar o login', () => {
     
     it('login Válido', () => {
-      cy.visit('https://www.saucedemo.com/')
+      cy.visit('/')
       cy.get('#user-name').click()
       cy.get('#user-name').type('standard_user')
       cy.get('#password').click()
