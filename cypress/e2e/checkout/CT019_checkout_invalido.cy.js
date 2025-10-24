@@ -2,7 +2,7 @@ describe('Fluxo de checkout com dados inválidos', () => {
 
     beforeEach(() => {
         //Acesso ao site
-        cy.visit('https://www.saucedemo.com/v1/')
+        cy.visit('/')
 
         //Login
         cy.get('[data-test="username"]').type('standard_user')
@@ -28,7 +28,7 @@ describe('Fluxo de checkout com dados inválidos', () => {
         //Finalização da compra
         cy.get('.btn_action.cart_button').click()
 
-        //Validação da mensagem de sucesso
-        cy.get('h2').should('contain.text', 'THANK YOU FOR YOUR ORDER')
+        // Aqui validamos que o sistema está se comportando incorretamente
+        cy.get('[data-test="complete-header"]').should('contain', 'Thank you for your order!')
     })
 })
