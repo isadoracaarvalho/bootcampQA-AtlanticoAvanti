@@ -4,7 +4,7 @@ Repositório desenvolvido pela equipe **Bugzilla** durante o **Bootcamp de Quali
 
 Este projeto reúne:
 - As **documentações da Fase 1** (testes manuais);
-- E a **automação de testes da Fase 2** (usando Cypress), aplicada ao sistema [**Swag Labs**](https://www.saucedemo.com/).
+- E a **automação de testes da Fase 2** (usando Cypress), aplicada ao sistema <a href="https://www.saucedemo.com/" target="_blank"><strong>Swag Labs</strong></a> .
 
 ---
 
